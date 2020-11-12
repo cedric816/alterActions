@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="landing page du groupe de rap Alter actions">
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	<meta name="twitter:card" content="player" />
+	<meta name="twitter:site" content="@TwitterDev" />
+	<meta name="twitter:title" content="Sample Player Card" />
+	<meta name="twitter:description" content="This is a sample video. When you implement, make sure all links are secure." />
+	<meta name="twitter:image" content="https://yoursite.com/example.png" />
+	<meta name="twitter:player" content="https://yoursite.com/container.html" />
+	<meta name="twitter:player:width" content="480" />
+	<meta name="twitter:player:height" content="480" />
     <title>Alter Actions</title>
 </head>
 <body>
-    <p>une modif!!</p>
+    <style type="text/css">
+video {
+   width:100%;
+   max-width:600px;
+   height:auto;
+}
+</style>
+
+<video controls>
+  <source src="example.mp4" type="video/mp4">
+Your browser does not support video
+</video>
 </body>
 </html>
